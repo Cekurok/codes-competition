@@ -1,7 +1,7 @@
 
 //Implement the class Box 
 class Box {
-  
+
 int l, b, h;
 
 // The class should have the following functions : 
@@ -82,7 +82,7 @@ friend ostream& operator<<(ostream& out, Box& B){
 
  long long Box::CalculateVolume(){
      unsigned long long temp ;
-     
+
      temp = l * b; 
          temp *= h;
      return temp ;
